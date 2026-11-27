@@ -15,3 +15,6 @@ Read this README and every file in prompt_series before designing. You are a mec
 - 06 — release package, print and iterate
 
 FreeCAD + Python is preferred for editable STEP and FCStd files, with FreeCAD MCP optional. OpenSCAD is an alternate scriptable engine, not a required dependency. Use a local reviewed MCP server and a personal machine; never expose arbitrary CAD Python execution to the internet. See TOOLCHAIN.md for setup.
+
+## Mechanical refinement — universal top-edge mount
+Prefer a compact removable portrait-phone top-edge saddle rather than a full-length model-specific cradle. Seat the structural rail directly above and nominally parallel to the phone/case top edge, with a rigid two-point datum and adjustable front/back jaw spacing for cases. Maintain positive mechanical retention, button/screen/camera keep-outs, independent panel-contact pads and measured angular calibration. See prompt 02 for detailed requirements. The fit range is provisional until measured.
