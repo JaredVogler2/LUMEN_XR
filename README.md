@@ -1,0 +1,17 @@
+# LUMEN XR / ALIGN — mechanical CAD prompt series
+
+## Start here
+Run the prompts in `prompt_series/` in numerical order using a coding agent with local shell access (Claude Code or Kiro) and optionally a FreeCAD MCP bridge. The goal is real, editable CAD and individually printable parts, not just images, meshes invented without validation, or design descriptions. This is a generic mock-panel prototype, not approved aircraft tooling. This public repository must never contain employer data, drawings, photos, credentials, part numbers, internal specifications or actual aircraft geometry.
+
+## Master prompt to paste into the agent
+Read this README and every file in prompt_series before designing. You are a mechanical fixture design engineer, computational CAD engineer and FDM manufacturing specialist. Build a portrait-iPhone-mounted, open-top, adjustable perimeter applicator for flexible rectangular adhesive labels 25.4–254 mm wide and 12.7–152.4 mm high. The phone is below the placard, display facing mechanic, rear facing wall. Gravity seats placard onto a lower datum rail. Both faces and top are open; side/bottom retention must withdraw before bonding without lifting the label. A fixed left anchor and movable right jaw with captive pass-through rails (like a woodworking bar clamp) are the preferred architecture, not a telescoping enclosure. Upper constraints are optional and must not obstruct top loading. Provide a positive-lock, non-marring portrait phone cradle, button/camera/port clearance, a reference edge for floor tare, a calibrated relationship between phone sensor axis and the placard datum, a visible top-left targeting index, and removable liner/application sequence. Explore alternatives and choose based on engineering evidence; document every deviation. Support full specified size range or identify explicit validated limitations. Use mock panels only. Produce parametric models, assembly, build scripts, part-level exports, illustrations, test coupons, BOM, assembly instructions, calibration and validation protocols. Run CAD tools, inspect renders, check solids and interference, export files, and commit generated outputs to this repository. Do not fabricate successful runs, print results, accuracy, or safety approvals. Do not send G-code to a printer or order parts without approval. Do not wait for unknown exact phone/printer data: use clearly labeled example dimensions, keep parameters editable and mark the final phone cradle and slicing profile blocked until measured. Do not treat personal cloud services as approved work systems.
+
+## Prompt series
+- 01 — environment, dimensions, requirements, trade study
+- 02 — parametric mechanical design and phone cradle
+- 03 — pass-through jaws, height adjustment, release and application
+- 04 — assembly, fit analysis, export and FDM production
+- 05 — phone tare, alignment and mock-panel validation
+- 06 — release package, print and iterate
+
+FreeCAD + Python is preferred for editable STEP and FCStd files, with FreeCAD MCP optional. OpenSCAD is an alternate scriptable engine, not a required dependency. Use a local reviewed MCP server and a personal machine; never expose arbitrary CAD Python execution to the internet. See TOOLCHAIN.md for setup.
