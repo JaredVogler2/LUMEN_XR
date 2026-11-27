@@ -18,3 +18,7 @@ FreeCAD + Python is preferred for editable STEP and FCStd files, with FreeCAD MC
 
 ## Mechanical refinement — universal top-edge mount
 Prefer a compact removable portrait-phone top-edge saddle rather than a full-length model-specific cradle. Seat the structural rail directly above and nominally parallel to the phone/case top edge, with a rigid two-point datum and adjustable front/back jaw spacing for cases. Maintain positive mechanical retention, button/screen/camera keep-outs, independent panel-contact pads and measured angular calibration. See prompt 02 for detailed requirements. The fit range is provisional until measured.
+
+
+## Preferred V1 phone attachment — compliant C-clip
+Use a printed resilient C-shaped top-edge clip (cross-section in the phone thickness direction, open downward) with a rigid, repeatable two-land top datum and rounded compliant arms. Prefer this passive snap-on concept over a screw or cam for the first mock prototype if measured retention and angular repeatability are adequate. Do not force one clip to cover the full provisional 8–20 mm case-on thickness range; print interchangeable calibrated clip sizes as necessary. Preserve positive retention on suitable case features, camera/button/glass clearance, and independent panel-contact standoffs. See prompt 02. This refinement supersedes the earlier preference for a screw-operated jaw, not the safety and calibration requirements.

@@ -6,3 +6,7 @@ Printer unknown: default planning envelope 220x220x250 mm, 0.4 nozzle, 0.2 layer
 
 ## Saddle-specific validation
 Export top-edge saddle, moving jaw, captive keeper, case insert variants, datum/fit coupon and dummy phone independently. Model and check bare/rounded/rimmed generic phone envelopes and case thickness extremes; show front/back jaw travel, seating datum contact, stop engagement, camera and screen keep-outs, panel standoff and assembly/removal path. Physically validate before full build; report measured fit and repeatability, not universal compatibility from CAD. Check max rail extension torque and case compression. Preserve 50.8 mm fixed side lips.
+
+
+## C-clip deliverables and verification
+Generate separate editable CAD and printable coupons for compliant C-clip variants, rigid datum bridge and optional captive keeper. Include cross-sections showing relaxed, thin-case and thick-case conditions, contact/keep-out regions, root fillets and overtravel stops. Assess clip loading and print anisotropy; do not claim FEA or fatigue results unless executed. Document material, orientation, gap matrix, measured force/fit and repeated reseating angular error, including maximum rail torque. Confirm the rigid reference remains independent of flexure. Retain adjustable jaw as fallback. No printer-specific G-code until printer is identified.
